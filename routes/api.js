@@ -29,7 +29,7 @@ router.use(
 
 
 router.get('/', (req, res) => {
-  res.status(200).json({ message: 'Connected to Oges SMS API' });
+  res.status(200).json({ message: 'Connected to Admin API' });
 
 });
 
